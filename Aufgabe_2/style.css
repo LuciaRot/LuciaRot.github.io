@@ -1,0 +1,119 @@
+body {
+      background-image: url(../../eia/EIA1-WiSe19-20/EIA1-WiSe19-20/Aufgabe_2/images/bg.png);
+      font-family: Arial, Helvetica, sans-serif;
+      width: 800px;
+      margin: auto;
+      text-align: center;
+}
+
+
+nav {
+      position: fixed;
+      top: 0px;
+      right: 80px;
+      box-sizing: border-box; border-radius: 0px 0px 15px 15px; line-height: 20px;
+      
+      
+      
+}
+
+a:hover{
+      color: navy;
+}
+
+ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0px;     
+}
+li{
+      float: left;
+}
+
+.navigation{
+      display: block;
+      padding: 8px;
+      background-color: grey;
+      list-style-type: none;
+      margin: 0;
+       
+      
+}
+
+.active{
+      color: ivory;
+      text-decoration: none;
+}
+
+.black {
+      color: powderblue;
+      text-decoration: none;
+}
+
+.blue {
+      color: powderblue;
+      text-decoration: none;
+}
+
+.bright {
+      color: powderblue;
+      text-decoration: none;
+}
+
+section {
+     margin: auto;
+}
+
+.fotooben {
+      margin: auto;
+}
+
+.ueberschrift{
+      font-size: xx-large;
+}
+
+
+input{
+      background-color: gray;
+      text-align: left;
+      width: 300px;
+      height: 30px;
+      color: white;
+      padding: 5px 5px 5px 10px;
+      float: left;
+      
+}
+
+.box4{
+      width: 600px;
+      height: 60px;
+      text-align: left;
+}
+::placeholder{
+      color: white;
+      font-size: large;
+}
+button{
+      background-color: rgb(175, 185, 196);
+      color: rgb(85, 80, 80);
+      float: left;
+}
+.kontakt{
+      float: left;
+}
+
+.daten{
+      text-align: left;
+      color: lightslategrey;
+      font-family: Arial, Helvetica, sans-serif;
+}
+.facebook:hover{
+      transform: scale(1.5);
+}
+.insta:hover{
+      transform: scale(1.5);
+}
+
+.hobby{
+      display: none;
+}
