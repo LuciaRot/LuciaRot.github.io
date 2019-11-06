@@ -1,0 +1,242 @@
+.bodyone{
+    background-image: url(images/bg.png);
+}
+.wrapper{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.mistelzweig{
+    position: absolute;
+    left: -30px;
+    top: -40px;
+}
+.pinguin{
+    position: absolute;
+    right: -23px;
+    bottom: -17px;
+}
+.header{
+    color: white;
+    font: freestyle-script;
+    font-size: 30px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.end{
+    color: white;
+    font: bradley hand itc;
+    font-size: 20px;
+}
+.greetings{
+    color: white;
+    font-size: 20px;
+}
+.bodythree{
+    background-image: url(../Aufgabe_3/images3/bg.png);
+}
+.karte{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.starone{
+    position: absolute;
+    top: 280px;
+    left: 80px;
+}
+.startwo{
+    position: absolute;
+    top: 180px;
+    left: 180px;
+}
+.starthree{
+    position: absolute;
+    top: 280px;
+    left: 280px;
+}
+.starfour{
+    position: absolute;
+    top: 180px;
+    left: 380px;
+}
+:hover.starone{
+    background-image: url(../Aufgabe_3/images3/stern_hover.png);
+}
+:hover.startwo{
+    background-image: url(../Aufgabe_3/images3/stern_hover.png);
+}
+:hover.starthree{
+    background-image: url(../Aufgabe_3/images3/stern_hover.png);
+}
+:hover.starfour{
+    background-image: url(../Aufgabe_3/images3/stern_hover.png);
+}
+.title{
+    color: white;
+    font-size: 30px;
+    font-family: Lucida handwriting;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.formular{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    color: white;
+}
+.boxone{
+    position: absolute;
+    top: 136px;
+    left: 50px;
+}
+.boxtwo{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    height: 40px;
+    width: 200px;
+}
+.yourname{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: white;
+}
+.yourmessage{
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    color: white;
+}
+.present{
+    position: absolute;
+    top: 250px;
+    left: 50px;
+    color: white;
+}
+.decide{
+    display: inline;
+    position: absolute;
+    top: 290px;
+    left: 50px;
+}
+.decidetwo{
+    position: absolute;
+    top: 290px;
+    left: 100px;
+}
+.yes{
+    position: absolute;
+    top: 290px;
+    left: 50px;
+    color: white;
+}
+.no{
+    position: absolute;
+    top: 290px;
+    left: 100px;
+    color: white;
+}
+.button{
+    position: absolute;
+    top: 340px;
+    left: 50px;
+}
+.plant{
+    position: absolute;
+    left: -30px;
+    top: -40px;
+}
+.fire{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.bow{
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+}
+.bodyeight{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url(../Aufgabe_3/images8/bg.png);
+}
+.video{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.enjoy{
+    position: absolute;
+    bottom: 20%;
+    left: 7%;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 30px;
+    color: white;
+}
+.sterneins{
+    position: absolute;
+    top: 30%;
+    left:18%;
+}
+.sternzwei{
+    position: absolute;
+    top: 15%;
+    left:35%;
+}
+video{
+    position: absolute;
+    right: 4%;
+    bottom: 7%;
+}
+.gift{
+    position: absolute;
+    bottom: -5%;
+    right: 0;
+}
+.plant{
+    position: absolute;
+    top: -15%;
+    left: -12%;
+}
+.check{
+    color: darkred;
+    font-size: 40px;
+    margin: auto;
+}  
+.buttons{
+    margin: auto;
+    color: white;
+    
+}
+button{
+    background-color: darkred;
+    color: white;
+    
+}
