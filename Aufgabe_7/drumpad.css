@@ -1,0 +1,85 @@
+body{
+    background-color: #000000;
+    margin: auto;
+}
+#pad{
+    margin: auto;
+    display: block;
+}
+button{
+    display: inline;
+    width: 150px;
+    height: 150px;
+    border: none;
+}
+div{
+    position: absolute;
+
+}
+.row1{
+    position: absolute;
+    top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row2{
+    position: absolute;
+    top: 165px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row3{
+    position: absolute;
+    top: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.btn1, .btn2, .btn3{
+    background-color: #1c86ee;
+    border-block-color: #1c86ee;
+}
+
+.btn4, .btn5, .btn6, .btn7{
+    background-color: #ff1493;
+    border-block-color: #ff1493;
+}
+.btn1:hover{
+    background-color: #27408b;
+}
+.btn2:hover{
+    background-color: #27408b;
+}
+.btn3:hover{
+    background-color: #27408b;
+}
+.btn4:hover{
+    background-color: #cd0976 ;
+}
+.btn5:hover{
+    background-color: #cd0976 ;
+}
+.btn6:hover{
+    background-color: #cd0976 ;
+}
+.btn7:hover{
+    background-color: #cd0976 ;
+}
+.btn8:hover{
+    background-color: #cd8500 ;
+}
+.btn9:hover{
+    background-color: #cd8500;
+}
+.btn8, .btn9{
+    background-color: #ee9a00;
+    border-block-color: #ee9a00;
+}
+img{
+    margin: auto;
+    top: 475px;
+}
+ 
+.play{
+    top: 475px;
+}
