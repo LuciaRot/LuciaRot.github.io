@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="haushaltshilfe.css">
+    <script src="haushaltshilfe.js"></script>
+    <title>Haushaltshilfe</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Haushaltshilfe</h1>
+        <p>Info</p>
+    </header>
+   
+        <div id="main">
+
+            <fieldset>
+                <legend>Aufgaben</legend>
+                <label for="einkauf">Einkaufen</label>
+                <input type="radio" name="Tasks" id="einkauf" value="Einkauf"><br>
+                <label for="haushalt">Haushalt</label>
+                <input type="radio" name="Tasks" id="haushalt" value="Haushalt"><br>
+                <label for="bankange">Bank</label>
+                <input type="radio" name="Tasks" id="bankange" value="Bankange"><br>
+            </fieldset>
+        <form>
+            <fieldset id="fieldeinkauf" disabled>
+                <legend>Einkaufen</legend>
+                <select name="Groceries" id="groceries">
+                    <option value="Butter" price="1.0">Butter(Stück)</option>
+                    <option value="Bread" price="1.50">Brot (Stück)</option>
+                    <option value="Banana" price="0.30">Banane (Stück)</option>
+                    <option value="Wasser" price="1.2">Wasser (Liter)</option>
+                    <option value="Nudeln" price="1.0">Nudeln (Kg)</option>
+                    <option value="Reis" price="1.50">Reis (Kg)</option>
+                    <option value="Karotten" price="1.10">Karotten (Kg)</option>
+                    <option value="Käse" price="2.0">Käse (Stück)</option>
+                    <option value="Fisch" price="5.00">Fisch (Stück)</option>
+                </select>
+
+                Anzahl
+                <input type="number" id="amountarticle" name="Amount" step="0.5" min="0" max="10" >
+                
+               
+                <!--<select name="Unit" id="unit">
+                    <option value="Kg">Kilogramm</option>
+                    <option value="Liter">Liter</option>
+                    <option value="Pack">Packung/Stück</option>
+                </select> -->
+               
+                <select name="Store" id="store">
+                    <option value="Edeka">Edeka</option>
+                    <option value="Rewe">Rewe</option>
+                    <option value="Lidl">Lidl</option>
+                    <option value="Aldi">Aldi</option>
+                </select>
+               
+                <span id="costarticle">Kosten:....</span>
+                <span>Gebühr: 0.30 € per item</span>
+
+                <button id="buttoneinkauf" type="button">OK</button>
+            </fieldset>
+
+            <fieldset id="fieldhaus" disabled>
+                <legend>Haushaltsarbeiten</legend>
+                <label for="staubsaugen">Staubsaugen</label> 
+                <input type="checkbox" name="Householdhelp" value="Staubsaugen" id="staubsaugen" price="2" />
+                <!--<input type="text" name="Amount" id="amountstaubsaugen" placeholder="Anzahl Zimmer">-->
+                <span id=gebührstaub>Gebühr: 2.00 €</span><br>
+
+                <label for="wischen">Wischen</label>
+                <input type="checkbox" name="Householdhelp" value="Wischen" id="wischen" price="2.5"/>
+                
+                <span id="gebührwischen">Gebühr: 2.50 €</span>
+
+                <button id="buttonhausarbeiten" type="button">OK</button><br> 
+
+                <label for="wäsche">Wäsche waschen</label>
+                <input type="checkbox" name="Householdhelp" value="Wäsche" id="wäsche" price="3"/>
+                <!--<input type="text" name="Amount" id="amountlaundry" placeholder="Anzahl Wäschen">-->
+                <span id="gebührwäsche">Gebühr: 3.00 €</span><br>
+                
+                <input type="text" name="Amount" id="amount" placeholder="Anzahl">
+                
+            </fieldset>
+
+            <fieldset id="fieldbank" disabled>
+                <legend>Bankangelegenheiten</legend>
+                <label for="transfermon">Geld überweisen</label>
+                <input type="radio" name="Bank" id="transfermon" value="Transfermon" price="10">
+                <span>Gebühr: 10€</span><br>
+
+                <label for="getmon">Geld abheben</label>
+                <input type="radio" name="Bank" id="getmon" value="Getmon" price="5">
+                <span>Gebühr: 5€</span>
+                <button id="buttonbankange" type="button">OK</button>
+                <br>
+                <span>
+                    20€
+                    <input type="range" name="Amount" id="amountmon" min="20" max="200" step="10" value="50">
+                    200€
+                </span>
+
+            </fieldset>
+
+
+
+       
+
+
+
+
+
+    </form>
+        </div>
+   
+
+    <div id="order">
+        <h2>Deine Bestellung</h2>
+        <div id="diveinkauf"></div>
+        <div id="divhaushalt"></div>
+        <div id="divbank"></div>
+
+        <p>Gesamtkosten: ... <span id="gesamt"></span>€</p>
+
+
+
+    </div>
+
+</body>
+</html>
